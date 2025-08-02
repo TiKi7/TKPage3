@@ -2,7 +2,7 @@
 
 .decode-text {
   width: 100%;
-  font-size: 6vw;
+  font-size: 7vh;
   text-align: center;
 }
 
@@ -27,7 +27,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  background: #0e182d;
+  background: black;
   width: 0;
   height: 1.2em;
   -webkit-transform: translate(-50%, -55%);
@@ -53,8 +53,8 @@
 
 #refresh {
   position: absolute;
-  top: 25vh;
-  left: 20vh;
+  top: -3em;
+  left: -1.5em;
   cursor: pointer;
 }
 
@@ -67,4 +67,20 @@ body {
   align-items: center;
   display: flex;
   overflow: hidden;
+  background-color: #f9f9f9;
+}
+
+#bg-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  /* height: auto; */
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+  background-size: cover;
+  filter: contrast(25%) brightness(156%);
+  height: 100%;
 }

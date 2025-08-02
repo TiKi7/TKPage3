@@ -14,7 +14,7 @@ const DECODE_TEXT_CONFIG = {
     // The maximum random delay before a letter's animation begins (in milliseconds).
     MAX_START_DELAY: 4000,
     // The fixed delay between each state transition for a single letter (in milliseconds).
-    TRANSITION_DELAY: 100,
+    TRANSITION_DELAY: 500,
     // The interval for re-running the entire decode effect for the demo (in milliseconds).
     DEMO_INTERVAL: 1000,
 };
