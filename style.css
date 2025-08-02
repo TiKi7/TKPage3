@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
 .decode-text {
   width: 100%;
   font-size: 3.5vw;
@@ -10,12 +11,16 @@
   width: 10px;
 }
 
-.text-animation {
+.decode-text>div {
   display: inline-block;
   position: relative;
-  color: transparent;
   text-transform: uppercase;
 }
+
+.text-animation {
+  color: transparent;
+}
+
 .text-animation:before {
   content: "";
   color: black;
@@ -29,15 +34,19 @@
   -ms-transform: translate(-50%, -55%);
   transform: translate(-50%, -55%);
 }
+
 .text-animation.state-1:before {
   width: 1px;
 }
+
 .text-animation.state-2:before {
   width: 0.9em;
 }
+
 .text-animation.state-3 {
   color: black;
 }
+
 .text-animation.state-3:before {
   width: 0;
 }
